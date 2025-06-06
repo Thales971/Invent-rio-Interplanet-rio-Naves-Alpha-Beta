@@ -611,6 +611,18 @@ console.log(listaUnida);
 console.log("------------------------------------------");
 
 //26
+//Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
+let quinzePrimeiros = inventarioAlpha.slice(0, 15) // seleciona os 15 primeiros
+let quinzePrimeirosReverse = quinzePrimeiros.reverse() //inverte  15 primeiros
+let ultimos = inventarioAlpha.splice(16, inventarioAlpha.length)
+
+console.table(quinzePrimeiros.concat(ultimos))
+console.log("----------------");
+
+
+
+
+
 
 
 
