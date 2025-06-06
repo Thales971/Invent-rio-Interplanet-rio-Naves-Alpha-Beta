@@ -602,6 +602,19 @@ console.log(listaUnida);
 console.log("------------------------------------------")
 
 
+//18
+
+let alphaFive = inventarioAlpha.slice(0,5);
+let betaFive = inventarioBeta.slice(0,5);
+listaUnida = alpha5.concat(beta5);
+console.log(listaUnida);
+console.log("------------------------------------------");
+
+
+
+
+
+
   
 
   
